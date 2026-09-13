@@ -1,32 +1,48 @@
-# React + TypeScript + Vite
+# 🚀 Dev Stack — Build Your Ideal Development Stack
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+An interactive web app where developers can explore popular web technologies and assemble their own personalized development stack — pick your frontend, backend, database, language, styling, and DevOps tools, all in one place.
 
-Currently, two official plugins are available:
+## 📖 Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Dev Stack** lets you browse a curated collection of 12+ modern technologies across categories like Frontend, Backend, Database, Language, Styling, and DevOps. Each technology card shows its category, difficulty level, and rating. Add any technology to "Your Stack" with a single click, and instantly see your personalized selection update in real time — complete with toast notifications for every action.
 
-## React Compiler
+This project was built as a hands-on exercise in fetching and displaying asynchronous data in React using the modern `use()` hook, along with clean component architecture, TypeScript typing, and responsive UI design.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Built With
 
-## Expanding the Oxlint configuration
+- **React** – Component-based UI library
+- **TypeScript** – Type-safe JavaScript
+- **Vite** – Lightning-fast build tool and dev server
+- **Tailwind CSS** – Utility-first CSS framework for styling
+- **React Toastify** – Elegant toast notifications
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## ✨ Features
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+- 🧩 **Browse & Add Technologies** — Explore technologies across multiple categories, each with a rating, difficulty level, and description, and add them to your stack with one click.
+- 🔔 **Real-Time Toast Notifications** — Get instant, non-intrusive feedback for every action — adding, removing, duplicate attempts, and clearing your entire stack — powered by React Toastify.
+- 🗑️ **Manage Your Stack** — Remove individual technologies from your stack anytime, or reset everything at once with the "Remove All" button, all reflected live in the sidebar.
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/Dipto-deb/assignment-05.git
+
+# Navigate to the project folder
+cd assignment-05
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## 🌐 Live Demo
+
+[View Live Site](https://your-live-link.vercel.app)
+
+## 👤 Author
+
+**Dipto** — BSc (Honours) Mathematics student & self-taught web developer
+- GitHub: [@Dipto-deb](https://github.com/Dipto-deb)
