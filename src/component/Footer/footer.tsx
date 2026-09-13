@@ -26,7 +26,39 @@ const Footer = () => {
           </div>
         </div>
 
-       
+        {/* Product */}
+        <div>
+          <h4 className="text-xs font-bold tracking-wider text-gray-400 mb-4">PRODUCT</h4>
+          <ul className="space-y-3 text-sm text-gray-600">
+            <li><a href="#" className="hover:text-gray-900">Home</a></li>
+            <li><a href="#" className="hover:text-gray-900">Technologies</a></li>
+            <li><a href="#" className="hover:text-gray-900">Projects</a></li>
+          </ul>
+        </div>
+
+        {/* Company */}
+        <div>
+          <h4 className="text-xs font-bold tracking-wider text-gray-400 mb-4">COMPANY</h4>
+          <ul className="space-y-3 text-sm text-gray-600">
+            <li><a href="#" className="hover:text-gray-900">About</a></li>
+            <li><a href="#" className="hover:text-gray-900">Contact</a></li>
+            <li><a href="#" className="hover:text-gray-900">Careers</a></li>
+          </ul>
+        </div>
+
+         {/* Legal */}
+        <div>
+          <h4 className="text-xs font-bold tracking-wider text-gray-400 mb-4">LEGAL</h4>
+          <ul className="space-y-3 text-sm text-gray-600">
+            <li><a href="#" className="hover:text-gray-900">Privacy Policy</a></li>
+            <li><a href="#" className="hover:text-gray-900">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="border-t border-gray-100 py-6 text-center text-sm text-gray-400">
+        © {new Date().getFullYear()} Dev Stack. All rights reserved.
+      </div>
     </footer>
   );
 };
