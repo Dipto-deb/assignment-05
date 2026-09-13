@@ -18,11 +18,7 @@ function App() {
   const [stack, setStack] = useState<Itechno[]>([]);
 
   const addToStack = (tech: Itechno) => {
-    const alreadyExists = stack.some(t => t.category === tech.category);
-    if (alreadyExists) {
-      alert(`You already picked a ${tech.category} technology`);
-      return;
-    }
+  
     setStack([...stack, tech]);
   };
 
@@ -34,8 +30,6 @@ function App() {
 
   return (
     <>
-   
-
       <Nav />
       <Hero />
       <div className="max-w-7xl mx-auto px-4 py-8">
