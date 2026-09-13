@@ -5,6 +5,7 @@ import Technologies from './component/Technologies/technologies';
 import YourStack from './component/YourStack/YourStack';
 import { Suspense, useState } from 'react';
 import type { Itechno } from './type/technologies';
+import Footer from './component/Footer/footer';
 
 const teachnologiesFetch = async () => {
   const res = await fetch("/data.json");
@@ -33,6 +34,8 @@ function App() {
 
   return (
     <>
+    <Footer/>
+
       <Nav />
       <Hero />
       <div className="max-w-7xl mx-auto px-4 py-8">
