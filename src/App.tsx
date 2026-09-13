@@ -34,7 +34,7 @@ function App() {
 
   return (
     <>
-    <Footer/>
+   
 
       <Nav />
       <Hero />
@@ -59,6 +59,7 @@ function App() {
           </div>
         </div>
       </div>
+       <Footer/>
     </>
   )
 }
